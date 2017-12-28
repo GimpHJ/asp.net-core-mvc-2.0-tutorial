@@ -110,7 +110,7 @@ namespace ContosoUniversity.Data
                     DepartmentID = departments.Single( s => s.Name == "English").DepartmentID
                 },
             };
-
+             
             foreach (Course c in courses)
             {
                 context.Courses.Add(c);
